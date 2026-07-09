@@ -2,18 +2,25 @@
   "name": "storybook-material-ui-project",
   "version": "1.0.0",
   "private": true,
+  "main": "dist/index.js",
   "scripts": {
     "storybook": "start-storybook -p 6006",
-    "build": "build-storybook"
+    "build": "build-storybook",
+    "build-storybook": "build-storybook",
+    "build:lib": "babel src --out-dir dist --copy-files"
   },
   "dependencies": {
-    "@mui/material": "^5.0.0",
     "@emotion/react": "^11.0.0",
     "@emotion/styled": "^11.0.0",
+    "@mui/material": "^5.0.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.29.7",
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "@babel/preset-react": "^7.29.7",
     "@storybook/react": "^6.0.0",
     "babel-loader": "^8.0.0"
   }
