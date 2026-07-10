@@ -1,0 +1,18 @@
+[12:05:21.684] [INFO] storybook v10.5.0
+[12:05:22.301] [ERROR] [38;2;241;97;97mSB_CORE-COMMON_0002 (InvalidFrameworkNameError): Invalid value of '@storybook/react' in the 'framework' field of Storybook config.
+
+Please run 'npx storybook automigrate' to automatically fix your config.
+
+More info: https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#new-framework-api
+[39m
+    at validateFrameworkName (file://./node_modules/storybook/dist/_node-chunks/chunk-VFV5MDK3.js:15040:11)
+    at buildDevStandalone (file://./node_modules/storybook/dist/core-server/index.js:11911:28)
+    at async withTelemetry (file://./node_modules/storybook/dist/_node-chunks/chunk-YXP5YOPH.js:1785:12)
+    at async dev (file://./node_modules/storybook/dist/bin/core.js:3850:3)
+    at async _Command.<anonymous> (file://./node_modules/storybook/dist/bin/core.js:3958:3)
+[12:05:22.303] [WARN] Broken build, fix the error above.
+You may need to refresh the browser.
+[12:05:22.309] [WARN] Could not resolve addon "@storybook/addon-links", skipping. Is it installed?
+[12:05:22.311] [WARN] Could not resolve addon "@storybook/addon-knobs", skipping. Is it installed?
+[12:05:23.439] [PROMPT] Would you like to send anonymous crash reports to improve Storybook and fix bugs faster? {"choice":true}
+[12:05:23.440] [INFO] Storybook collects completely anonymous usage telemetry. We use it to shape Storybook's roadmap and prioritize features. You can learn more, including how to opt out, at https://storybook.js.org/telemetry

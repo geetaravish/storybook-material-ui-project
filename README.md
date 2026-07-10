@@ -39,9 +39,16 @@ To get started with this project, follow these steps:
    ```
    npm run storybook
    ```
+ This will start the Storybook development server, and you can view it in your browser at `http://localhost:6006`.
 
-   This will start the Storybook development server, and you can view it in your browser at `http://localhost:6006`.
-
+4. **Build Storybook:**
+   ```
+   npm run build
+   ```
+5. **Update the dist folder:**
+   ```
+   npm run build:lib
+   ```
 ## Usage
 
 You can add your own components in the `src/components` directory and create corresponding stories in the `src/stories` directory. Each story file should export default metadata and individual stories showcasing different states of the component.
